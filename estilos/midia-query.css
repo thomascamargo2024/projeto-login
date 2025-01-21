@@ -25,6 +25,15 @@
         width: 70%;
     }
 
+    div#formulario > h1{
+        font-size: 1.8em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+    }
+
+
 }
 
 
@@ -39,15 +48,24 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
+        border-radius: 0px 15px 15px 0px;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
 
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
     }
 
 
